@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style for the homeowner details */
+.homeowner-details {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.homeowner-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.homeowner-details strong {
+    font-weight: bold;
+}
+
+/* Style for the "Submit Reviews" button */
+.submit-reviews-btn {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Style for the "Review Section" title */
+.review-section-title {
+    font-size: 24px;
+    margin-top: 40px;
+    color: #333;
+}
