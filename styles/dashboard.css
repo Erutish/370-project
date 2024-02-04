@@ -1,0 +1,52 @@
+body {
+    background-image: url("https://c.wallhere.com/photos/cf/1b/digital_art_artwork_interior_room-1457511.jpg!d");
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+a {
+    text-decoration: none;
+    color: rgb(171, 5, 5);
+}
+/*#######################################
+########### Dashboard layout ############
+########################################*/
+.dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+    background-color: rgba(150, 181, 202, 0.7);
+    margin-bottom: 100px;
+}
+
+.dashboard h2 {
+    text-decoration: underline;
+}
+.profile, .rent, .requests {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+/*#######################################
+############### NAVIGATION ##############
+########################################*/
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 118px;
+    padding-left: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(248, 238, 226);
+}
