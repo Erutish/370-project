@@ -1,0 +1,83 @@
+/* Basic styling for the search results page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.result-group {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.property-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.property-item:last-child {
+    border-bottom: none;
+}
+
+.property-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.property-info h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+.property-info p {
+    margin: 0;
+    color: #666;
+}
+
+.property-description {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.property-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.property-details p {
+    margin: 0;
+    color: #555;
+}
+
+.property-action {
+    font-weight: bold;
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.property-action:hover {
+    color: #0056b3;
+}
