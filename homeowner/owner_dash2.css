@@ -1,0 +1,56 @@
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin:10;
+    padding: 0;
+    color: #333;
+    background-image: url('https://cdn.wallpapersafari.com/74/84/nZLpHE.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    padding: 30px;
+    background-color: #007bff;
+    color: #fff;
+    margin: 0;
+    background-image: url('https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/black-paper-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 50px; 
+}
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px; 
+}
+
+
+
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

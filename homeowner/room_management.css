@@ -1,0 +1,63 @@
+
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-139.jpg?w=2000');
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 500px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+}
+
+.atm {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
