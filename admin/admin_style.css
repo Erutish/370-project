@@ -1,0 +1,35 @@
+/* admin_style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.pinimg.com/originals/94/09/7e/94097e458fbb22184941be57aaab2c8f.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+    color: #444;
+}
+
+

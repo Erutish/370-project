@@ -1,0 +1,65 @@
+
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styleing lkortesicontent area */
+p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* link er style */
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* hover diye link style */
+a:hover {
+    color: #555;
+}
+
+/* space adding */
+a + a {
+    margin-left: 5px;
+}
+
+/* Style buttons */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style buttons on hover */
+button:hover {
+    background-color: #555;
+}

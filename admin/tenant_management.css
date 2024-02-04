@@ -1,0 +1,56 @@
+/*  default margins and paddings */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/*  header */
+h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* main content area */
+p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('https://img.freepik.com/free-vector/white-background-with-hexagonal-line-pattern-design_1017-28442.jpg?w=2000');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* links on hover */
+a:hover {
+    color: #555;
+}
+
+/* spacing  */
+a + a {
+    margin-left: 5px;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
